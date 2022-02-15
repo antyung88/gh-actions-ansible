@@ -1,0 +1,14 @@
+name: "ansible"
+
+on: 
+  push:
+    branches: [ master ]
+
+jobs:
+  ansible:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: ./ansible
+        env:
+          VAULT_PASS: ${{ secrets.VAULT_PASS }}
