@@ -42,7 +42,7 @@ Edit ```hosts``` in ```./ansible/hosts```
 
 ## Step 4
 
-Edit ```playbook.yml in ```./ansible/playbook.yml```
+Edit ```playbook.yml``` in ```./ansible/playbook.yml```
 
 
 
